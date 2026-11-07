@@ -7,9 +7,9 @@
   "author": "Pooria Arab",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pooriaarab/foxprefs.git"
+    "url": "git+https://github.com/itsryanarmani/foxprefs.git"
   },
-  "homepage": "https://github.com/pooriaarab/foxprefs#readme",
+  "homepage": "https://github.com/itsryanarmani/foxprefs#readme",
   "packageManager": "pnpm@11.10.0",
   "engines": {
     "node": ">=24"

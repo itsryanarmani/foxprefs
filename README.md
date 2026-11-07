@@ -72,7 +72,7 @@ flowchart LR
    does not change. Text values must be one line, so a value cannot add a line of its
    own to an agent prompt.
 3. Public fields go to agents through the prompt text and the MCP server.
-4. An `ask` field goes out only through [foxscope](https://github.com/pooriaarab/foxscope),
+4. An `ask` field goes out only through [foxscope](https://github.com/itsryanarmani/foxscope),
    which asks you first and logs each read. foxprefs answers SCENT messages from the
    foxscope extension and from no other extension.
 5. A private field never leaves: no agent surface returns it, also with `derive`.
@@ -243,10 +243,10 @@ flowchart LR
   self -- SCENT resolver --> foxscope[foxscope]
   self -- rules --> foxgate[foxgate]
   foxgate --> foxpay[foxpay]
-  click foxkit "https://github.com/pooriaarab/foxkit"
-  click foxscope "https://github.com/pooriaarab/foxscope"
-  click foxgate "https://github.com/pooriaarab/foxgate"
-  click foxpay "https://github.com/pooriaarab/foxpay"
+  click foxkit "https://github.com/itsryanarmani/foxkit"
+  click foxscope "https://github.com/itsryanarmani/foxscope"
+  click foxgate "https://github.com/itsryanarmani/foxgate"
+  click foxpay "https://github.com/itsryanarmani/foxpay"
 ```
 
 ## FAQ
